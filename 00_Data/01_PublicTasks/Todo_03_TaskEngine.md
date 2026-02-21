@@ -1,7 +1,7 @@
 ---
-priority:
-status: 
-tags:
+priority: medium
+status: todo
+tags: [M0S_Task]
 deadline:
 start_date: 
 end_date:

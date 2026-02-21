@@ -40,11 +40,34 @@
       "colorClass": "multi",
       "options": {
         "sourceType": "ValuesList",
-        "valuesList": {}
+        "valuesList": {
+          "1": "M0S_Task"
+        }
       },
       "name": "tags",
       "id": "E5YJ4u",
       "path": ""
+    },
+    {
+      "type": "Select",
+      "tagName": "select",
+      "icon": "right-triangle",
+      "tooltip": "Accepts a single value from a list",
+      "colorClass": "select",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {
+          "1": "Task",
+          "2": "Routine",
+          "3": "note"
+        }
+      },
+      "name": "type",
+      "id": "NH8vMB",
+      "path": "",
+      "style": {
+        "bold": true
+      }
     },
     {
       "type": "DateTime",
@@ -60,6 +83,31 @@
       },
       "name": "deadline",
       "id": "NRX3vw",
+      "path": ""
+    },
+    {
+      "type": "Boolean",
+      "tagName": "boolean",
+      "icon": "toggle-left",
+      "tooltip": "Accepts true or false",
+      "colorClass": "boolean",
+      "options": {},
+      "name": "is_done",
+      "id": "VyfgOT",
+      "path": ""
+    },
+    {
+      "type": "Multi",
+      "tagName": "multi",
+      "icon": "bullet-list",
+      "tooltip": "Accepts multiple values from a list",
+      "colorClass": "multi",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {}
+      },
+      "name": "category",
+      "id": "WQfyh5",
       "path": ""
     },
     {
@@ -116,52 +164,6 @@
         "bold": false,
         "strikethrough": false
       }
-    },
-    {
-      "type": "Select",
-      "tagName": "select",
-      "icon": "right-triangle",
-      "tooltip": "Accepts a single value from a list",
-      "colorClass": "select",
-      "options": {
-        "sourceType": "ValuesList",
-        "valuesList": {
-          "1": "Task",
-          "2": "Routine",
-          "3": "note"
-        }
-      },
-      "name": "type",
-      "id": "NH8vMB",
-      "path": "",
-      "style": {
-        "bold": true
-      }
-    },
-    {
-      "type": "Boolean",
-      "tagName": "boolean",
-      "icon": "toggle-left",
-      "tooltip": "Accepts true or false",
-      "colorClass": "boolean",
-      "options": {},
-      "name": "is_done",
-      "id": "VyfgOT",
-      "path": ""
-    },
-    {
-      "type": "Multi",
-      "tagName": "multi",
-      "icon": "bullet-list",
-      "tooltip": "Accepts multiple values from a list",
-      "colorClass": "multi",
-      "options": {
-        "sourceType": "ValuesList",
-        "valuesList": {}
-      },
-      "name": "category",
-      "id": "WQfyh5",
-      "path": ""
     }
   ],
   "fileClassQueries": [],
@@ -170,7 +172,7 @@
   "classFilesPath": null,
   "isAutosuggestEnabled": true,
   "fileClassAlias": "fileClass",
-  "settingsVersion": "5.16",
+  "settingsVersion": "5.17",
   "firstDayOfWeek": 1,
   "enableLinks": true,
   "enableTabHeader": true,
@@ -195,5 +197,5 @@
   "autoInsertFieldsAtFileClassInsertion": false,
   "fileClassIcon": "package",
   "isAutoCalculationEnabled": true,
-  "disableDataviewPrompt": false
+  "disableDataviewPrompt": true
 }

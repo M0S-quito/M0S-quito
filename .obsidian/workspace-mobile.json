@@ -8,17 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7508a93224ad90d0",
+            "id": "086ad5eac5b41f79",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Rules.md",
-                "mode": "preview",
-                "source": true
+                "file": "Todo.base",
+                "viewName": "PUBLIC"
               },
-              "icon": "lucide-file",
-              "title": "Rules"
+              "icon": "lucide-layout-grid",
+              "title": "Todo"
             }
           }
         ]
@@ -112,7 +111,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Rules.md",
+            "file": "Todo.base",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -168,34 +167,42 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "7508a93224ad90d0",
+  "active": "086ad5eac5b41f79",
   "lastOpenFiles": [
-    "README.md",
-    "Rules.md",
+    "01_Logs/2026-02-21.md",
     "Todo.base",
+    "00_Data/01_PublicTasks/Todo_01_CoreEngine.md",
+    "00_Data/01_PublicTasks/Todo_05_OutputLayer.md",
+    "00_Data/01_PublicTasks/Todo_04_RoutineEngine.md",
+    "00_Data/01_PublicTasks/Todo_03_TaskEngine.md",
+    "00_Data/01_PublicTasks/Todo_02_FileGenerator.md",
+    "Rules.md",
+    "00_Data/01_PublicTasks/Todo_00_Preparation.md",
+    "01_Logs/plaeholder.txt",
+    "01_Logs",
+    "00_Data/04_Bin/placeholder.txt",
+    "00_Data/04_Bin",
+    "00_Data/03_Routines/placeholder.txt",
+    "00_Data/03_Routines",
+    "00_Data/02_PrivateTask/placeholder.txt",
+    "00_Data/02_PrivateTask",
+    "00_Data/01_PublicTasks/옵시디언 자동화 스크립트 작성.md",
+    "TaskNotes/Tasks/예제.md",
+    "TaskNotes/Views/tasks-default.base",
+    "00_Data/01_PublicTasks/무제.md",
+    "00_Data/01_PublicTasks/예제 1.md",
+    "00_Data/01_PublicTasks/js개발 한거 공부해서 적어서 올리기.md",
+    "README.md",
     "00_Data/02_PrivateTasks/무제 1.md",
     "00_Data/02_PrivateTasks/무제.md",
     "99_Templates/PublicTask.md",
     "99_Templates/PrivateTask.md",
     "00_Data/02_PrivateTasks/무제 2.md",
-    "00_Data/01_PublicTasks/js개발 한거 공부해서 적어서 올리기.md",
-    "00_Data/01_PublicTasks/예제 1.md",
     "00_Data/04_Bin/옵시디언 파일 자동하 하기.md",
     "99_Templates/Daily_Task.md",
     "99_Templates/Dev_Task.md",
-    "99_Templates",
     "00_Diary_data/2026-02-18.md",
     "옵시디언 기반으로 todo만들기.md",
-    "02_Daily_data/Done",
-    "03_Routines",
-    "02_Daily_data",
-    "01_Dev_data/pi-server에 openclaw깔고 오기.md",
-    "00_Diary_data/261.md",
-    "01_Dev_data/옵시디언 todo 템플릿 만들기.md",
-    "2026-02-18.md",
-    "99_Templates",
-    "00_Diary_data",
-    "01_Dev_data/Done",
-    "01_Dev_data"
+    "01_Dev_data/pi-server에 openclaw깔고 오기.md"
   ]
 }

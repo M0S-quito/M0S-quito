@@ -1,9 +1,10 @@
 ---
-priority:
-status: 
+priority: medium
+status: in_progress
 tags:
-deadline:
-start_date: 
+  - M0S_Task
+deadline: 2026-03-07 23:00
+start_date: 2026-02-22
 end_date:
 deploy: false
 ---
