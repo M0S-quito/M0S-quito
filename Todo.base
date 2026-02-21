@@ -1,0 +1,23 @@
+formulas:
+  무제: ""
+views:
+  - type: cards
+    name: PUBLIC
+    filters:
+      and:
+        - file.folder == "00_Data/01_PublicTasks"
+        - status != "done"
+    order:
+      - file.basename
+      - status
+      - priority
+      - deadline
+    cardSize: 240
+  - type: cards
+    name: PRIVATE
+    filters:
+      and:
+        - file.inFolder("00_Data/02_PrivateTasks")
+        - is_done != true
+    cardSize: 250
+    image: note.status
