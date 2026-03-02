@@ -3,10 +3,10 @@ import shutil
 import sys
 
 TEMPLATE_MAP = {
-    "public_task": ["99_Templates/PublicTask.md", "00_Data/01_PublicTasks"],
-    "private_task": ["99_Templates/PrivateTask.md","00_Data/02_PrivateTasks"],
-    "routine": ["99_Templates/Routine.md", "00_Data/03_Routines"],
-    "bin": ["99_Templates/Bin.md", "00_Data/04_Bins"]
+    "public_task": ["99_Templates/PublicTask.md", "01_PublicTasks"],
+    "private_task": ["99_Templates/PrivateTask.md","02_PrivateTasks"],
+    "routine": ["99_Templates/Routine.md", "03_Routines"],
+    "bin": ["99_Templates/Bin.md", "04_Bins"]
 }
 BASE_DIR = Path("./") # 현재 디렉토리를 기준으로 경로 설정(짜피 샤뱅으로 할꺼임)
 
@@ -25,10 +25,6 @@ def template(template_name: str, filename: str):
     shutil.copy(template_path, new_file)
 
     print(f"Created: {new_file}")
-
-# 자동 Log작성
-def auto_log():
-    
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:

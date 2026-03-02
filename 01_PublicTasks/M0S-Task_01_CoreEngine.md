@@ -1,8 +1,7 @@
 ---
 priority: medium
 status: in_progress
-tags:
-  - M0S_Task
+tags: [M0S_Task]
 deadline: 2026-03-07 23:00
 start_date: 2026-02-22
 end_date:
@@ -15,6 +14,17 @@ deploy: false
 - [ ] 경로 유틸 모듈 작성
 ---
 # Main
+### 전체적인 설계
+```dirtree
+.script/
+ ├─ main.py          ← CLI 엔트리
+ ├─ core.py          ← template() 있음
+ ├─ config.json
+
+```
+### 1. ClI기본 구조 만들기
+
+
 ### 1. 템플릿 파일 기반으로 바로 해당 폴더에 파일 생성시 알맞는 템플릿 적용해서 생성하는 스크립트 작성
 ```python
 TEMPLATE_MAP = {
