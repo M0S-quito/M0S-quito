@@ -11,13 +11,14 @@
             "id": "086ad5eac5b41f79",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Todo.base",
-                "viewName": "PUBLIC"
+                "file": "01_Logs/2026-02-25.md",
+                "mode": "source",
+                "source": true
               },
-              "icon": "lucide-layout-grid",
-              "title": "Todo"
+              "icon": "lucide-file",
+              "title": "2026-02-25"
             }
           }
         ]
@@ -111,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Todo.base",
+            "file": "00_Data/01_PublicTasks/Todo_00_Preparation.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -169,15 +170,18 @@
   },
   "active": "086ad5eac5b41f79",
   "lastOpenFiles": [
-    "01_Logs/2026-02-21.md",
     "Todo.base",
     "00_Data/01_PublicTasks/Todo_01_CoreEngine.md",
+    "00_Data/01_PublicTasks/Todo_00_Preparation.md",
+    "01_Logs/2026-03-01.md",
+    "01_Logs/2026-02-26.md",
+    "01_Logs/2026-02-25.md",
+    "01_Logs/2026-02-21.md",
     "00_Data/01_PublicTasks/Todo_05_OutputLayer.md",
     "00_Data/01_PublicTasks/Todo_04_RoutineEngine.md",
     "00_Data/01_PublicTasks/Todo_03_TaskEngine.md",
     "00_Data/01_PublicTasks/Todo_02_FileGenerator.md",
     "Rules.md",
-    "00_Data/01_PublicTasks/Todo_00_Preparation.md",
     "01_Logs/plaeholder.txt",
     "01_Logs",
     "00_Data/04_Bin/placeholder.txt",
@@ -200,9 +204,6 @@
     "00_Data/02_PrivateTasks/무제 2.md",
     "00_Data/04_Bin/옵시디언 파일 자동하 하기.md",
     "99_Templates/Daily_Task.md",
-    "99_Templates/Dev_Task.md",
-    "00_Diary_data/2026-02-18.md",
-    "옵시디언 기반으로 todo만들기.md",
-    "01_Dev_data/pi-server에 openclaw깔고 오기.md"
+    "99_Templates/Dev_Task.md"
   ]
 }
