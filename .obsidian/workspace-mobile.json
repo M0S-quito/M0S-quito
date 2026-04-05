@@ -11,14 +11,13 @@
             "id": "086ad5eac5b41f79",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "01_Logs/2026-02-25.md",
-                "mode": "source",
-                "source": true
+                "file": "Todo.base",
+                "viewName": "PUBLIC"
               },
-              "icon": "lucide-file",
-              "title": "2026-02-25"
+              "icon": "lucide-layout-grid",
+              "title": "Todo"
             }
           }
         ]
@@ -112,7 +111,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "00_Data/01_PublicTasks/Todo_00_Preparation.md",
+            "file": "Todo.base",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -170,7 +169,22 @@
   },
   "active": "086ad5eac5b41f79",
   "lastOpenFiles": [
+    "README.md",
     "Todo.base",
+    "01_PublicTasks/M0S-Task_01_CoreEngine.md",
+    "scripts/__pycache__/core.cpython-313.pyc",
+    "scripts/__pycache__/core.cpython-312.pyc",
+    "scripts/main.py",
+    "scripts/core.py",
+    "scripts/__pycache__",
+    "scripts",
+    "01_PublicTasks/M0S-Task_00_Preparation.md",
+    "01_PublicTasks/M0S-Key_00_design.md",
+    "무제.canvas",
+    "01_PublicTasks/M0S-Task_02_FileGenerator.md",
+    "01_PublicTasks/M0S-Task_05_OutputLayer.md",
+    "01_PublicTasks/M0S-Task_03_TaskEngine.md",
+    "Rules.md",
     "00_Data/01_PublicTasks/Todo_01_CoreEngine.md",
     "00_Data/01_PublicTasks/Todo_00_Preparation.md",
     "01_Logs/2026-03-01.md",
@@ -181,29 +195,15 @@
     "00_Data/01_PublicTasks/Todo_04_RoutineEngine.md",
     "00_Data/01_PublicTasks/Todo_03_TaskEngine.md",
     "00_Data/01_PublicTasks/Todo_02_FileGenerator.md",
-    "Rules.md",
     "01_Logs/plaeholder.txt",
     "01_Logs",
     "00_Data/04_Bin/placeholder.txt",
-    "00_Data/04_Bin",
-    "00_Data/03_Routines/placeholder.txt",
-    "00_Data/03_Routines",
-    "00_Data/02_PrivateTask/placeholder.txt",
-    "00_Data/02_PrivateTask",
     "00_Data/01_PublicTasks/옵시디언 자동화 스크립트 작성.md",
     "TaskNotes/Tasks/예제.md",
-    "TaskNotes/Views/tasks-default.base",
     "00_Data/01_PublicTasks/무제.md",
     "00_Data/01_PublicTasks/예제 1.md",
     "00_Data/01_PublicTasks/js개발 한거 공부해서 적어서 올리기.md",
-    "README.md",
     "00_Data/02_PrivateTasks/무제 1.md",
-    "00_Data/02_PrivateTasks/무제.md",
-    "99_Templates/PublicTask.md",
-    "99_Templates/PrivateTask.md",
-    "00_Data/02_PrivateTasks/무제 2.md",
-    "00_Data/04_Bin/옵시디언 파일 자동하 하기.md",
-    "99_Templates/Daily_Task.md",
-    "99_Templates/Dev_Task.md"
+    "00_Data/02_PrivateTasks/무제.md"
   ]
 }

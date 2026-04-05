@@ -5,7 +5,7 @@ views:
     name: PUBLIC
     filters:
       and:
-        - file.folder == "00_Data/01_PublicTasks"
+        - file.folder == "01_PublicTasks"
         - status != "done"
     order:
       - file.basename
